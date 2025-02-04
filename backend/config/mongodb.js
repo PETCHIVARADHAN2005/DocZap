@@ -4,12 +4,13 @@ const connectDB = async () => {
 
     mongoose.connection.on('connected', ()=> console.log("Database Connected"))
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/DocZap`,{
+    await mongoose.connect(process.env.MONGODB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         authSource: 'admin',
-        ssl: true
-      });
+        ssl: true,
+        dbName: 'DocZap'  // Specify database name separately
+    });
 }
 
 export default connectDB
