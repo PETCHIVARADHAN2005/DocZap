@@ -1,82 +1,101 @@
-🏥 Project Name: DocZap – Healthcare Management System
+🏥 DocZap – Healthcare Management System
+
+
+links:
+User Portal        - https://doczapusers.vercel.app/
+Doctor/Admin Portal- https://doczapadmin.vercel.app/
+
 
 🔍 What is DocZap?
-DocZap is a doctor-centric healthcare management system that digitizes hospital operations and enables seamless communication between patients, doctors, and admins. It features separate portals for each user type and focuses on real-time appointment scheduling, online payments, doctor availability, and profile management.
+DocZap is a doctor-centric healthcare management system designed to digitize hospital operations and enable seamless communication between patients, doctors, and administrators. It provides dedicated portals for each user type, focusing on real-time appointment scheduling, secure online payments, doctor availability management, and comprehensive profile management.
 
-🎯 Purpose of the Project:
-To build a full-stack medical platform where:
+🎯 Purpose of the Project
+DocZap aims to modernize hospital workflows by building a robust full-stack platform where:
 
-Patients can book appointments and manage health profiles online
+✅ Patients can book appointments and manage their health profiles online.
+✅ Doctors can oversee their schedules, earnings, and patient appointments.
+✅ Admins maintain complete control over operations, doctor onboarding, and overall system oversight.
 
-Doctors can manage their availability and appointments
 
-Admins can control the overall system and onboard new doctors
 
-This system replaces manual booking, reduces patient wait time, and improves hospital workflow with automated and secure management.
 
-👥 User Roles & Functionalities:
-1. Patients (Users Portal)
-Register/login via a separate user portal
+By replacing manual booking processes, DocZap reduces patient wait times and significantly improves operational efficiency and data security for hospitals.
 
-Search doctors based on specialization
+👥 User Roles & Functionalities
+
+
+1. Patients (User Portal)
+Register/Login via a dedicated user portal
+
+Search for doctors based on specialization
 
 View doctor availability and book appointments
 
-Make online payments via Razorpay
+Make secure online payments via Razorpay
 
-Manage their profile (add/update name, photo, address, etc.)
+Manage personal profiles (update name, photo, address, etc.)
 
 View appointment history and status
+
+
 
 2. Doctors (Doctor Portal)
 Login through a separate doctor portal
 
-View their dashboard showing:
+Access a personalized dashboard with:
 
-Earnings
+Total earnings
 
-Total appointments
+Number of appointments
 
 Upcoming bookings
 
 Accept or reject appointments
 
-Toggle availability status (available/unavailable)
-→ Directly reflected in the user (patient) portal in real time
+Toggle availability status (available/unavailable), which updates in real time on the patient portal
+
+
 
 3. Admin (Admin Portal)
-Login via the same portal as doctors (different credentials)
+Login via the same portal as doctors (using admin credentials)
 
-View all doctors' earnings and appointment stats
+View earnings and appointment stats for all doctors
 
-Manage availability of each doctor
+Manage doctor availability
 
-Add new doctors to the system
+Onboard new doctors into the system
 
-Oversee platform activity and maintain control
 
-💡 Unique Features / Novelty:
-Separate login systems and dashboards for Patients, Doctors, and Admins
 
-Real-time doctor availability syncing across portals
+Oversee platform activities and maintain administrative control
 
-Secure Razorpay integration for online payments
+💡 Unique Features / Novelty
+✨ Separate login systems and dashboards for Patients, Doctors, and Admins
+✨ Real-time doctor availability synchronization across portals
+✨ Secure online payments using Razorpay
+✨ Admin-controlled doctor onboarding and management
+✨ Enhanced user profiles for personalized patient care
 
-Admin-controlled doctor onboarding
 
-User profile enhancement for personalized care
 
-🧰 Technology Stack:
-Frontend: React.js (Vite), Axios, Tailwind CSS
+🧰 Technology Stack
+Layer	Technology
+Frontend	React.js (Vite), Axios, Tailwind CSS
+Backend	Node.js, Express.js (MVC architecture)
+Database	MySQL
+Auth	JWT (JSON Web Tokens)
+Image Storage	Cloudinary
+Payments	Razorpay
+Deployment	Vercel (Frontend & Backend)
 
-Backend: Node.js, Express.js (MVC structure)
+🚀 Deployment
+Frontend deployed on Vercel
+Backend deployed on Vercel (Serverless functions / API routes)
 
-Database: MySQL
+📈 Benefits
+✅ Reduced patient wait times
+✅ Streamlined hospital workflow
+✅ Secure online transactions
+✅ Better doctor-patient communication
+✅ Scalable and modern tech stack
 
-Authentication: JWT
-
-Image Storage: Cloudinary
-
-Payment Integration: Razorpay
-
-Deployment: Vercel (Frontend), Render/Other (Backend)
