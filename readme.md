@@ -82,7 +82,7 @@ Oversee platform activities and maintain administrative control
 Layer	Technology
 Frontend	React.js (Vite), Axios, Tailwind CSS
 Backend	Node.js, Express.js (MVC architecture)
-Database	MySQL
+Database	MongoDB
 Auth	JWT (JSON Web Tokens)
 Image Storage	Cloudinary
 Payments	Razorpay
